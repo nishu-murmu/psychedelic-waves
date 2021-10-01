@@ -1,5 +1,5 @@
-# Three.js - Template - Simple
-
+# Three.js - Psychedelic Waves
+## Template Code Courtesy - [Bruno Simon](https://github.com/brunosimon)
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
