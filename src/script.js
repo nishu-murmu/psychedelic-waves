@@ -55,10 +55,6 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize(sizes.width, sizes.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 
-// Controls
-const controls = new OrbitControls(camera, canvas)
-controls.enableDamping = true
-
 /**
  * Cube
  */
@@ -108,7 +104,6 @@ const tick = () => {
     }
     // Update controls
     plane.material.uniforms.time.value = elapsedTime
-    controls.update()
 
     // Render
     renderer.render(scene, camera)
