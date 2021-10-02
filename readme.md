@@ -1,17 +1,3 @@
 # Three.js - Psychedelic Waves
 ## [Live](https://psychedelic-waves.netlify.app/)
-## Template Code Courtesy - [Bruno Simon](https://github.com/brunosimon)
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
-
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
+Template Code Courtesy - [Bruno Simon](https://github.com/brunosimon)
